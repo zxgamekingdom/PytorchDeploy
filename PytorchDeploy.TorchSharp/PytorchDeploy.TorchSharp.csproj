@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="TorchSharp-cuda-windows" Version="0.99.2" />
+		<PackageReference Include="TorchSharp.Fun" Version="0.73.0" />
+		<PackageReference Include="MVTec.HalconDotNet" Version="22111.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\PytorchDeploy.ClassLibrary\PytorchDeploy.ClassLibrary.csproj" />
+	</ItemGroup>
+</Project>

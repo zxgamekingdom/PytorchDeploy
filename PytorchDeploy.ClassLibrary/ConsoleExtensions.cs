@@ -1,5 +1,7 @@
 ﻿using System;
 
+namespace PytorchDeploy.ClassLibrary;
+
 public static class ConsoleExtensions
 {
     public static void WriteLine<T>(this T t, ConsoleColor? backgroundColor = default,

@@ -4,6 +4,7 @@
 		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<RootNamespace>OnnxTest.ConsoleApp</RootNamespace>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
 		<PlatformTarget>x64</PlatformTarget>
@@ -12,11 +13,12 @@
 		<PlatformTarget>x64</PlatformTarget>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.ML.OnnxRuntime.DirectML" Version="1.13.1"/>
-		<PackageReference Include="Microsoft.ML.OnnxRuntime.Gpu" Version="1.13.1"/>
-		<PackageReference Include="MVTec.HalconDotNet" Version="22111.0.0"/>
-		<PackageReference Include="SixLabors.ImageSharp" Version="2.1.3"/>
-		<PackageReference Include="TorchSharp-cuda-windows" Version="0.99.2"/>
-		<PackageReference Include="TorchSharp.Fun" Version="0.73.0"/>
+		<PackageReference Include="Microsoft.ML.OnnxRuntime.DirectML" Version="1.13.1" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime.Gpu" Version="1.13.1" />
+		<PackageReference Include="MVTec.HalconDotNet" Version="22111.0.0" />
+		<PackageReference Include="TorchSharp.Fun" Version="0.73.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\PytorchDeploy.ClassLibrary\PytorchDeploy.ClassLibrary.csproj" />
 	</ItemGroup>
 </Project>
