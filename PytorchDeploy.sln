@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PytorchDeploy.OnnxRuntime", "PytorchDeploy.OnnxRuntime\PytorchDeploy.OnnxRuntime.csproj", "{52FE1091-14DC-4869-896F-F51FF1020A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PytorchDeploy.PythonInclued", "PytorchDeploy.PythonInclued\PytorchDeploy.PythonInclued.csproj", "{87053175-C995-42B4-9D5A-6FCA623026EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PytorchDeploy.PythonNet", "PytorchDeploy.PythonNet\PytorchDeploy.PythonNet.csproj", "{87053175-C995-42B4-9D5A-6FCA623026EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PytorchDeploy.TorchSharp", "PytorchDeploy.TorchSharp\PytorchDeploy.TorchSharp.csproj", "{5D3DD39B-2196-4316-98C8-1354E1B068F6}"
 EndProject
